@@ -19,7 +19,8 @@ const Background = styled.div`
 
 const LoginContainer = styled.div`
   height: 90%;
-  width: 300px;
+  /* width: 300px; */
+  width: 70vw;
   border-radius: 10px;
   display: flex;
   flex-direction: column;

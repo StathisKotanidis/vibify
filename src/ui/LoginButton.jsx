@@ -13,7 +13,7 @@ const LoginButtonStyled = styled.button`
   justify-content: center;
   align-items: center;
   gap: 4px;
-  padding: 4px;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   background-color: #1fdf64;
   border: 1px solid #1fdf64;
