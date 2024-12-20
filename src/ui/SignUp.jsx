@@ -25,7 +25,7 @@ function SignUp() {
     <SignUpContainer>
       <span>Not signed up?</span>
       <a href="https://www.spotify.com/us/signup" target="_blank">
-        Create a Spotify account.
+        Create a Spotify account
       </a>
     </SignUpContainer>
   );
