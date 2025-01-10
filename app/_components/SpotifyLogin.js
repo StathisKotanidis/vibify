@@ -19,12 +19,14 @@ export default function SpotifyLogin() {
   };
 
   return (
-    <button
-      onClick={handleLogin}
-      className="flex items-center rounded-md py-2 px-3 gap-2 border-2 border-black bg-mainColor"
-    >
-      <span className="font-semibold">Log in with</span>
-      <FaSpotify />
-    </button>
+    <div className="flex justify-center items-center flex-grow basis-[30%]">
+      <button
+        onClick={handleLogin}
+        className="flex items-center rounded-md py-2 px-3 gap-2 sm:py-3 sm:px-4 md:py-4 md:px-5 lg:py-5 lg:px-6 border-2 border-black bg-mainColor hover:border-mainColor hover:bg-black hover:text-mainColor "
+      >
+        <span className="font-semibold">Log in with</span>
+        <FaSpotify />
+      </button>
+    </div>
   );
 }

@@ -4,14 +4,15 @@ import LoginForm from "@/app/_components/LoginForm";
 
 export default function Page() {
   return (
-    <div className="flex items-center justify-center h-screen w-screen">
+    <div className="relative py-4 flex items-center justify-center min-h-screen  w-screen xl:justify-end xl:pr-[3rem]">
       <Image
         src={background_login}
-        fill
         placeholder="blur"
+        fill
+        className="object-cover"
         alt="backgound-image"
       />
-      <div className="relative">
+      <div className="relative z-10">
         <LoginForm />
       </div>
     </div>
