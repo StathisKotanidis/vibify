@@ -10,6 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mainColor: "#1DB954",
+        loginFormBg: "#dee2e6",
       },
     },
   },
