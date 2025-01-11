@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1 className="text-red-500">Hi</h1>;
+import { redirect } from "next/navigation";
+
+export default function RootPage() {
+  redirect("/login"); // Automatically redirect to /dashboard
 }
