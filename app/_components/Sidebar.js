@@ -13,7 +13,7 @@ export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div
-      className={`h-screen w-20 md:w-64 bg-gray-800 transition-width duration-300 text-white ${
+      className={`h-screen w-20 md:w-64 bg-mainColor transition-width duration-300 text-white ${
         isOpen ? "w-64" : "w-20"
       }`}
     >
@@ -31,7 +31,7 @@ export default function Sidebar() {
       </div>
       <nav className="mt-4">
         <ul>
-          <li className="flex items-center p-4 hover:bg-gray-700 cursor-pointer">
+          <li className="flex items-center p-4 hover:bg-green-800 cursor-pointer">
             <CgProfile size={24} />
             <span className={`ml-4 md:block ${isOpen ? "block" : "hidden"}`}>
               Profile
