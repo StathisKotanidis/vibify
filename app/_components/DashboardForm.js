@@ -3,10 +3,10 @@ import { FaGears } from "react-icons/fa6";
 
 export default function DashboardForm() {
   return (
-    <form className="flex p-2 basis-[90%] flex-col w-full items-center justify-around">
+    <form className="flex h-full flex-col w-full items-center justify-around">
       <textarea
         placeholder="Your vibe matters! Share your feelings, and let the music reflect them."
-        className="h-52 w-full p-2 rounded-md"
+        className="h-52 w-full p-2 rounded-md resize-none"
       ></textarea>
       <div className="flex flex-col gap-2 items-center w-4/5">
         <label className="text-md text-center sm:text-lg" htmlFor="genre">
@@ -37,7 +37,7 @@ export default function DashboardForm() {
         ></input>
       </div>
 
-      <button className="flex gap-2 bg-mainColor items-center text-white rounded-md p-3 w-48">
+      <button className="flex gap-2 bg-mainColor items-center justify-center text-white rounded-md p-3 w-48 xl:w-52 xl:p-4 xl:font-semibold">
         <FaGears />
         <span>Generate playlist</span>
       </button>
